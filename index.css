@@ -1,0 +1,263 @@
+#about {
+    width: 100%; 
+    text-align: center; 
+    display: none; 
+}
+#about p{
+    text-align: justify; 
+    padding: 5px; 
+}
+
+#aboutToggle {
+    color: rgba(168, 0, 47, 1);
+    text-align: center; 
+    background-color: rgba(198, 199, 196, 1);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
+    border-radius: 5px; 
+    padding: 5px; 
+    width: 17vw; 
+    margin-bottom: 10px; 
+}
+#aboutToggle:hover {
+    cursor: pointer;
+    opacity: .7; 
+}
+#annie p {
+    font-weight: 100;
+}
+body {
+    background-color: rgba(238, 240, 242, 1);
+    float: left;
+}
+#basicStructure {
+    display: none; 
+}
+#basicStructure li{
+    padding: 10px; 
+}
+#buttonDiv {
+    padding-top: 10px; 
+    text-align: center; 
+}
+#contactDiv {
+    display: none; 
+}
+#cycleTestsDiv {
+    display: none; 
+}
+nav {
+    background-color: rgba(198, 199, 196, 1);
+    margin-left: -8px; 
+    margin-top: -8px; 
+}
+nav div img {
+    border-radius: 30%; 
+    box-shadow: 2px 2px 3px rgba(168, 0, 47, 1);
+}
+main {
+
+    /* width: 65vw;  */
+    /* float: right;  */
+    overflow: scroll;
+}
+main h3, main li {
+    font-weight: bold;
+}
+p {
+    color: rgba(0, 0, 0, 1);
+}
+#workout img{
+    border-style: solid;
+    border-radius: 5px; 
+    border-color: rgba(168, 0, 47, 1);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
+}
+/* ******* all Toogle DIVs HERE */
+#activationDiv {
+    display: none; 
+}
+#activation:hover {
+    opacity: .7;
+    cursor: pointer; 
+}
+#coolDown:hover {
+    opacity: .7;
+    cursor: pointer; 
+}
+#coolDownDiv {
+    display: none; 
+}
+
+#generalWarmUp:hover {
+    opacity: .7;
+    cursor: pointer; 
+}
+#generalWarmUpDiv {
+    display: none; 
+}
+#specificWarmUp:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+#specificWarmUpDiv {
+    display: none;
+}
+#workout ul li {
+    padding: 15px;
+}
+#whiteBoardDiv {
+    display: none; 
+}
+#whiteBoard:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+#wod:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+#wodDiv {
+    display: none; 
+}
+
+
+/* SMALL SCREENS HERE ################################################# */
+@media screen and (max-width: 434px){
+    #deathMarch {
+        width: 80vw;
+        padding: 0 10px 0 0;
+    }
+    nav {
+        width: 101vw;
+        height: 20vh; 
+        box-shadow: 0px 5px 3px rgba(168, 0, 47, 1);
+        position: fixed;
+    }
+    nav img {
+        width: 20vw;
+        height: auto; 
+        margin: 3vw 5vw; 
+    }
+    nav div {
+        /* display: inline;  */
+        text-align: center;
+    }
+    nav div h2{
+        color: rgba(238, 240, 242, 1);
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+        font-size: 5vw; 
+        float: right; 
+        /* width: auto; */
+        /* margin-right: 20px;  */
+        margin-right: 10vw;
+        /* margin-left: 3vw;  */
+        margin-top: 35px;
+    }
+     main {
+         margin-top: 20vh; 
+         margin-left: -8px;
+          
+     }
+     #workout img {
+        padding-top: 5px;
+        width: 100vw; 
+        height: auto; 
+    }
+   
+    /* drop down nav menu */
+    .dropbtn {
+    background-color: rgba(168, 0, 47, 1);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
+    color: rgba(238, 240, 242, 1);
+    font-size: 3vh;
+    border: none;
+    width: 30vw;
+    border-radius: 5px; 
+}
+
+.dropbtn:hover, .dropbtn:focus {
+   opacity: .7;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+}
+/* LARGE SCREENS HERE ############################################## */
+
+@media screen and (min-width: 435px){
+    .dropbtn {
+        display: none; 
+    }
+    .dropdown-content ul {
+        list-style: none; 
+    }
+       nav ul a li{
+        font-size: 20px; 
+        color: rgba(55, 63, 81, 1);
+        text-align: left; 
+        border-top-style: solid; 
+        border-width: 1px; 
+        padding: 15px; 
+    }
+    .dropdown-content a {
+        text-decoration: none; 
+    }
+    .dropdown-content ul a li:hover {
+        padding: 20px; 
+        opacity: .7;
+    }
+    main {
+        margin-left: 31vw; 
+        width: 60vw;  
+        float: left; 
+        padding-left: 15px; 
+    }
+    nav {
+        position: fixed; 
+        float: left; 
+        width: 30vw;
+        height: 100vh; 
+        box-shadow: 5px 0px 3px rgba(168, 0, 47, 1);
+        text-align: center;
+        font-size: 2vw;
+       
+    }
+    nav h2 {
+        color: rgba(238, 240, 242, 1);
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    }
+    nav img {
+        width: 10vw;
+        height: auto; 
+        margin-top: 5vh; 
+    }
+    #workout img {
+        width: 57vw; 
+        height: auto; 
+    }
+
+}
+ /* END BIG SCREENS  ************ */
