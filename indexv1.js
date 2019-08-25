@@ -62,7 +62,7 @@ $(document).ready(function(){
     /// end toggles for Class format;
     //this is the global that updates with the wods
     $("#workout").prepend(
-        `<img src="${wod3}"><img src="${wod4}"> `
+        `<img src="${wod5}"><img src="${wod6}"> `
     );
     //toggle for the about section
     $("#aboutToggle").click(function(){
