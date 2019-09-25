@@ -60,7 +60,7 @@ $(document).ready(function(){
         $("#coolDownDiv").toggle();
     })
     /// end toggles for Class format;
-    //this is the global that updates with the wods
+    //this is the global that updates with the wods\
     $("#workout").prepend(
         `<img src="${wod8}"><img src="${wod9}"> `
     );
