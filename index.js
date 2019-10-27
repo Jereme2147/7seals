@@ -14,6 +14,7 @@ let wod10 = 'week10.png';
 let wod11 = 'week11.png';
 let wod12 = 'week12.png';
 let wod13 = 'week13.png';
+let wod14 = 'week14.png';
 //divs that get hidden with the exception of the workout div
 let divs = [ '#about', '#basicStructure', '#cycleTestsDiv', '#contactDiv' ]
 
@@ -63,7 +64,7 @@ $(document).ready(function(){
     /// end toggles for Class format;
     //this is the global that updates with the wods\
     $("#workout").prepend(
-        `<img src="${wod12}"><img src="${wod13}"> `
+        `<img src="${wod14}"><img src="${wod1}"> `
     );
     //toggle for the about section
     $("#aboutToggle").click(function(){
